@@ -1,0 +1,16 @@
+*.csv
+*.hyper
+.DS_Store
+Thumbs.db
+# Data outputs — regenerate via the notebooks instead of tracking
+Python queries/data/
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
